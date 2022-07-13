@@ -1,0 +1,36 @@
+/* header  */
+
+header {
+    height: 60px;
+}
+
+header .row {
+    background-color: #2e3a46;
+}
+header .row .logo {
+    width: 50%;
+    padding: 0.5em;
+}
+
+
+/* main */
+main {
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    background-color: #1e2d3b;
+}
+
+main .col {
+    background-color: #2e3a46;
+}
+main .col h2,
+main .col h3 {
+    color: grey;
+}
+
+/* footer */
+footer {
+    height: 30px;
+    background-color: #1e2d3b;
+}
